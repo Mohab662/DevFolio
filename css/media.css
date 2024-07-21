@@ -1,0 +1,82 @@
+/****************** home  ********************/
+@media screen and (max-width: 768px){
+
+    .home-ani h1{
+        font-weight: 600 ;
+        font-size: 3rem ;
+        padding-bottom: 30px;
+        font-family: 'Open Sans', sans-serif;
+    
+    }
+    .home-ani::before{
+        font-size: 30px;
+
+    }
+
+}
+/********************************************/
+@media screen and (max-width: 576px){
+.mohab-full img{
+
+  width: 150px !important;
+  margin-bottom: 20px;
+    
+}
+
+.mohab-yaxis{
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2px;
+
+
+}
+
+.cr7{
+    width: 100%!important;
+}
+
+.contact-small{
+
+    padding-bottom: 30px;
+}
+.test-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-max{
+   margin-left: 30px;
+   margin-right: 30px;
+}
+.nav-underline>a{
+    border-bottom: none !important;
+
+}
+
+}
+
+
+@media screen and (max-width: 992px){
+
+
+    .dropdown:hover > .dropdown-menu, .dropstart:hover > .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        margin-right: 0.125rem;
+        position: relative;
+
+
+    }
+    .dropstart:hover > .dropdown-menu{
+        position: relative;
+       bottom: 100%;
+        left: 0;
+
+    }
+
+
+}
+

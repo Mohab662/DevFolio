@@ -1,0 +1,497 @@
+:root{
+    --color-w:#fff;
+    --font-si: 17px;
+    --font-wei: 500;
+    --font-m: font-family: 'Open Sans', sans-serif;
+
+
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+.bg-oo{
+background-color:rgba(0,0,0,0.9) !important;
+}
+.co-bl{
+    color: #0078FF;
+}
+
+.bg-mogray{
+    background-color: #F5F5F5;
+    padding-top: 5rem;
+}
+.bg-mohgray{
+    background-color: #F5F5F5;
+
+}
+
+.very-big-txt{
+    font-weight: 600 !important;
+    font-size: 40px !important;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/hero-bg.jpg);
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.dropdown:hover > .dropdown-menu, .dropstart:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    margin-right: 0.125rem;
+}
+.dropstart:hover > .dropdown-menu{
+    position: absolute;
+    right: 100%;
+    top: 0;
+}
+
+.mohab{
+   font-weight: var(--font-wei);
+    color: var(--color-w)  !important;
+   font-family: var(--font-m)!important ;
+   font-size: var(--font-si) !important;
+}
+.navbar{
+    background-color:rgba(0,0,0,0.5);
+
+}
+.nav-item>a  {
+    color: var(--color-w);
+}
+
+.nav-icoo{
+    font-family: var(--font-m)!important ;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+
+
+.drop-hover> li a{
+    font-weight: 500;
+}
+.drop-hover> li a:hover{
+
+    color: #0078FF !important;
+    transition: 0.5s;
+}
+.poin-hand{
+    cursor:pointer;
+}
+
+
+/*******************************/
+
+.nav-item .nav-link:focus,.nav-item .nav-link:hover {
+    border-bottom-color: currentcolor
+}
+
+
+.nav-link:hover{
+    
+    color: #fff;
+    transition: 0.6s;
+}
+
+
+/* ---------------------------------------- active ------------------------------------------ */
+/* body:not(:has(:target)) .test-be a::before ,
+body:has(.home:target) .test-be::before ,
+body:has(.about:target) .test-be::before ,
+body:has(.services:target) .test-be::before ,
+body:has(.work:target) .test-be::before ,
+body:has(.blog:target) .test-be::before,
+body:has(.contact:target) .test-be::before
+{
+    width: 60% !important;
+} */
+
+
+/* body:not(:has(:target)) .home-link::before,
+body:has(.home:target) .home-link::before,
+body:has(.about:target) .about-link::before,
+body:has(.services:target) .services-link::before,
+body:has(.work:target) .work-link::before,
+body:has(.blog:target) .blog-link::before,
+body:has(.contact:target) .contact-link::before
+ {
+background-color: var(--color-w) !important;
+width:60% !important;
+} */
+
+/* nav botton*/
+/* body:has(.nav-links:target) .navbar{
+    height: 100vh;
+    background-color: aqua;
+    color: aqua;
+} */
+
+/*------------------animation and title-------------------*/
+.home-ani {
+    position: relative;
+}
+.home-ani h1{
+    font-weight: 600 ;
+    font-size: 5rem ;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.home-ani::before{
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 400;
+    font-size: 35px;
+    color: var(--color-w);
+    content: "";
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    animation-name: home-ani;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition: 0.5s;
+}
+@keyframes home-ani{
+    0%{content: "|";}
+    1%{content: "D|";}
+    2%{content: "De|";}
+    3%{content: "Dev|";}
+    4%{content: "Deve|";}
+    5%{content: "Devel|";}
+    6%{content: "Develo|";}
+    7%{content: "Develop|";}
+    8%{content: "Develope|";}
+    10%{content: "Developer|";}
+    11%{content: "Developer|";}
+    12%{content: "Developer|";}
+    13%{content: "Developer|";}
+    14%{content: "Developer|";}
+    15%{content: "Developer";}
+    16%{content: "Develope|";}
+    17%{content: "Develop|";}
+    18%{content: "Develo|";}
+    19%{content: "Devel|";}
+    20%{content: "Deve|";}
+    21%{content: "Dev|";}
+    22%{content: "De|";}
+    23%{content: "D|";}
+    24%{content: "|";}
+    25%{content: "D|";}
+    26%{content: "De|";}
+    27%{content: "Des|";}
+    28%{content: "Desi|";}
+    29%{content: "Desig|";}
+    30%{content: "Design|";}
+    31%{content: "Designe|";}
+    32%{content: "Designer|";}
+    33%{content: "Designer|";}
+    34%{content: "Designer|";}
+    35%{content: "Designer|";}
+    36%{content: "Designer|";}
+    37%{content: "Designe|";}
+    38%{content: "Design|";}
+    39%{content: "Desig|";}
+    40%{content: "Desi|";}
+    41%{content: "Des|";}
+    42%{content: "De|";}
+    43%{content: "D|";}
+    44%{content: "|";}
+    45%{content: "F|";}
+    46%{content: "Fr|";}
+    47%{content: "Fre|";}
+    48%{content: "Free|";}
+    49%{content: "Freel|";}
+    50%{content: "Freela|";}
+    51%{content: "Freelan|";}
+    52%{content: "Freelanc|";}
+    53%{content: "Freelance|";}
+    54%{content: "Freelancer|";}
+    55%{content: "Freelancer|";}
+    56%{content: "Freelancer|";}
+    57%{content: "Freelancer|";}
+    58%{content: "Freelancer|";}
+    59%{content: "Freelance|";}
+    60%{content: "Freelanc|";}
+    61%{content: "Freelan|";}
+    62%{content: "Freela|";}
+    63%{content: "Freel|";}
+    64%{content: "Free|";}
+    65%{content: "Fre|";}
+    66%{content: "Fr|";}
+    67%{content: "F|";}
+    68%{content: "|";}
+    69%{content: "P|";}
+    70%{content: "Ph|";}
+    71%{content: "Pho|";}
+    72%{content: "Phot|";}
+    73%{content: "Photo|";}
+    74%{content: "Photog|";}
+    75%{content: "Photogr|";}
+    76%{content: "Photogra|";}
+    77%{content: "Photograp|";}
+    78%{content: "Photograph|";}
+    79%{content: "Photographe|";}
+    80%{content: "Photographer|";}
+    81%{content: "Photographer|";}
+    82%{content: "Photographer|";}
+    83%{content: "Photographer|";}
+    84%{content: "Photographer|";}
+    85%{content: "Photographer|";}
+    86%{content: "Photographer|";}
+    87%{content: "Photographer|";}
+    88%{content: "Photographer|";}
+    89%{content: "Photographe|";}
+    90%{content: "Photograph|";}
+    91%{content: "Photograp|";}
+    92%{content: "Photogra|";}
+    93%{content: "Photogr|";}
+    94%{content: "Photog|";}
+    95%{content: "Photo|";}
+    96%{content: "Phot|";}
+    97%{content: "Pho|";}
+    98%{content: "Ph|";}
+    99%{content: "P|";}
+    100%{content: "|";}
+
+
+
+
+
+
+
+
+}
+
+/**********************************************/
+.about-photo img{
+    width: 100%;
+}
+.text-colog{
+    color: #4E4E4E;
+}
+.text-coloD{
+    color: #1E1E1E;
+    font-weight: 600;
+    font-size: 18px;
+}
+/* under line */
+.line-page{
+    position: relative;
+    
+}
+.line-page::before{
+    content: "";
+    position: absolute;
+    background-color: #0078ff;
+    width: 20%;
+    height: 3px;
+    bottom: -10px;
+    left: 0;
+}
+/** process bar**/
+.w-85{
+    width: 85%;
+}
+.w-90{
+    width: 90%;
+}
+.mohab-full{}
+
+/**********************services************************/
+/*                icons               */
+.ser-ico{
+    transition: 0.5s;
+    width: 8rem;
+    height: 8rem;
+    border: solid 10px #0078FF;
+    border-radius: 50%;
+}
+.ser-nonico{
+    width: 5rem;
+    height: 5rem;
+    border: solid 9px #F8F9FA;
+    border-radius: 50%;
+}
+
+
+.ser-ico1:hover .ser-ico{
+    border: solid 10px #CDE1F8;
+    background-color: #0078FF;
+
+}
+.ser-ico1:hover i{
+color: #fff;
+}
+/*     underline       */
+.line-page3{
+    position: relative;
+}
+.line-page3::before{
+    content: "";
+    position: absolute;
+    background-color: #0078ff;
+    width: 10%;
+    height: 5px;
+    bottom: -16px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.last-ser{
+    background-image:linear-gradient(rgba(0, 120, 250, 0.7),rgba(0,120,250,0.7)), url(../image/counters-bg.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cr7{}
+
+/*************************************** portfilo*******************************************/
+.port-ico{
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #0078FF;
+    border: solid 2px #0078FF;
+    border-radius: 50%;
+}
+.port-imgscale {
+    transition: 0.5s;
+    overflow: hidden;
+}
+.port-imgscale img{
+    transition: 1s;
+}
+.port-imgscale:hover img{
+    transform: scale(1.3,1.3);
+}
+ .fs-smaal{
+    font-size: 13px;
+}
+
+/*************************************** Carousel *******************************************/
+.carousel-me{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 120, 250, 0.7),rgba(0,120,250,0.7)),url(../image/overlay-bg.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.carousel-indicators [data-bs-target]{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}  
+
+/*************************************** blog *******************************************/
+.mohab-a{
+    text-decoration: none;
+    color: black;
+    transition: 0.6s;
+}
+.mohab-a:hover{
+    color: #0078FF;
+    cursor: pointer;
+}
+
+.blog-smalimg{
+    height: 2.3rem;
+    width: 2.3rem;
+    border-radius: 50%;
+}
+.bolg-TRAVEL{
+    position: absolute;
+    background-color: #0078FF;
+    color: #fff;
+    padding: 7px 15px;
+    font-size: 12px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-radius: 4px;
+    
+}
+/*************************************** contact *******************************************/
+.contact-me{
+    background-image:linear-gradient(rgba(0, 120, 250, 0.7),rgba(0,120,250,0.7)),url(../image/overlay-bg.jpg) ;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.textbox{
+    outline:none;
+    border: 1px solid #4E4E4E;
+}
+.textbox:focus{
+border: 1px solid #0078FF;
+}
+.submit-btn{
+    border-radius: 80px ;
+    
+    padding: 9px 20px;
+    margin-bottom: 3rem;
+    background-color: #0078ff;
+    border: solid 2px #F8F9FA;
+}
+.submit-btn:hover{
+    transition: 0.3s;
+    background-color: #3e90ed;
+    border: solid 2px #0078FF;
+}
+
+/*** icons****/
+.ser-icom{
+    transition: 0.5s;
+    width: 3rem;
+    height:3rem;
+    border: solid 3px #0078FF;
+    border-radius: 50%;
+}
+.ser-icom:hover
+{
+    border: solid 3px #CDE1F8;
+    background-color: #0078FF;
+    cursor: pointer;
+}
+.ser-icom:hover i{
+color: #fff;
+}
+.p-topp{
+    padding-top: 8rem;
+}
+.footer-me{
+background-color: #0062D3;
+}
+/**** pading***/
+.p-topbot{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.mohab-yaxis{}
+
+
+.container{
+    --bs-gutter-x:0 !important;
+    --bs-gutter-y:0 !important;
+
+}
+.last-ser .container .row{
+    --bs-gutter-x:0 !important;
+    --bs-gutter-y:0 !important;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
